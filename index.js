@@ -49,6 +49,6 @@ var globalVar = 100; // SonarQube marcaría esto como una mala práctica
 function divide(a, b) {
     return a / b; // SonarQube podría sugerir manejar el caso de división por cero
 }
-
+   
 // 7. Uso de console.log en producción (Regla: "console.log" should not be used)
 console.log("Debugging message"); // SonarQube marcaría esto como un "code smell"
